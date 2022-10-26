@@ -5,13 +5,12 @@
 //Each player will roll two dice, then you must choose the score of ONE of the dice or the TOTAL of the two dice rolled
 //The value you choose is then added to your total score. If a player's score is ABOVE 30, your score is reset to ZERO.
 //The two players will then switch. The game will end when a player earns a total score of EXACTLY 30.
-
-
-import java.util.*;
+import java.util.Scanner;
 class Main {
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
+
 
         class Player {
             private String name = "unknown";
@@ -25,31 +24,34 @@ class Main {
             public String getName() {
                 return name;
             }
-
             public void setName(String name) {
                 this.name = name;
             }
-
             public int getScore() {
                 return score;
             }
-
             public void setScore(int score) {
                 this.score = score;
             }
-
             public void addScore(int addScore) {
              score = getScore() + addScore; //sets score to
             }
 
-
             public void askName() {
+
+                final String ANSI_RESET = "\u001B[0m";
+                final String ANSI_YELLOW = "\u001B[33m";
+
                 System.out.println("\nWhat is your name, Player: ");
                 name = input.next();
-                System.out.println("Welcome to the game, " + getName());
+                System.out.println(ANSI_YELLOW+"Welcome to the game, " + getName()+ANSI_RESET);
                 System.out.println("-------------------------------------");
             }
         }
+
+
+
+
 
         class DiceGame {
             Player[] playerNames; //array of players (defined in main)
@@ -60,13 +62,16 @@ class Main {
             public void display() {
                 boolean gameInProgress = true;
 
+                final String ANSI_YELLOW = "\u001B[33m"; //sets text color to yellow
+                final String ANSI_RESET = "\u001B[0m"; //sets text color back to basic color
+
                 while (gameInProgress ) { //will run while true:
                     for (Player player : playerNames) { //runs for each player, think of it as switching turns
                         int diceRoll1 = (int) (Math.random() * 6) + 1; //dice 1
                         int diceRoll2 = (int) (Math.random() * 6) + 1; //dice 2
                         int diceRollTotal = diceRoll1 + diceRoll2; // total of dice 1 and dice 2
 
-                        System.out.println("\nPlayer: " + player.getName() + ".... Your total score is: " + player.getScore()); //says player name and score
+                        System.out.println("\nPlayer: " + ANSI_YELLOW + player.getName()+ ANSI_RESET + ".... Your total score is: " + player.getScore()); //says player name and score
                         System.out.println("First dice is: " + diceRoll1); //prints dice 1
                         System.out.println("Second dice is: " + diceRoll2);// prints dice 2
                         System.out.println("The total of the two dice is: " + diceRollTotal); //prints total of dice1+ dice 2
@@ -93,7 +98,7 @@ class Main {
                             System.out.println("Oh no! Your score is over 30. Your score is now reset back to 0.");
                         }
                         if (player.getScore() == 30) {
-                            System.out.println("Your score is 30! Congratulations, Player: " + player.getName() + " you have won!");
+                            System.out.println("Your score is 30! Congratulations, Player: " + ANSI_YELLOW+ player.getName()+ ANSI_RESET + " you have won!");
                             System.out.println("-------------------------------------");
                             gameInProgress = false; //will stop our gameInProgress loop because false
                             break; //closes out of loop
