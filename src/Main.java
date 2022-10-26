@@ -40,11 +40,11 @@ class Main {
             public void askName() {
 
                 final String ANSI_RESET = "\u001B[0m";
-                final String ANSI_YELLOW = "\u001B[33m";
+                final String ANSI_BLUE = "\u001B[36m";
 
                 System.out.println("\nWhat is your name, Player: ");
                 name = input.next();
-                System.out.println(ANSI_YELLOW+"Welcome to the game, " + getName()+ANSI_RESET);
+                System.out.println(ANSI_BLUE+"Welcome to the game, " + getName()+ANSI_RESET);
                 System.out.println("-------------------------------------");
             }
         }
@@ -133,3 +133,9 @@ class Main {
         newDiceGame.display(); //prints our actual game
     }
 }
+
+//Notes:`
+//I wanted to use color, so it is clear who is currently playing or who won
+//Looked up how to use colored text
+
+//Code should work for multiple players, currently have set to 2 players
