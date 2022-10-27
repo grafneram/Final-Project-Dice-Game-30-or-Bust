@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Player {
     public static final String DEFAULT_USERNAME = "unknown";
+    public static final int STARTING_SCORE = 0;
     private String name;
     private int score = 0;
 
@@ -13,7 +14,7 @@ public class Player {
     }
 
     public Player() {
-        this(DEFAULT_USERNAME, 0);
+        this(DEFAULT_USERNAME, STARTING_SCORE);
     }
 
     public String getName() {
@@ -30,6 +31,10 @@ public class Player {
 
     public void setScore(int score) {
         this.score = score;
+    }
+
+    public void resetScore() {
+        score = STARTING_SCORE;
     }
 
     public void addScore(int addScore) {

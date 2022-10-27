@@ -55,11 +55,10 @@ public class DiceGame {
                 System.out.println("\nPlayer: " + ANSI_YELLOW + player.getName() + ANSI_RESET + ".... Your total score is: " + player.getScore()); //says player name and score
 
                 diceRoll.rollDice();
-                int numberOfDice = diceRoll.getNumberOfDice();
-                for (int i = 0; i < numberOfDice; i++) {
+                for (int i = 0; i < diceRoll.getNumberOfDice(); i++) {
                     System.out.println(IntegerNames.ORDINALS[i + 1] + " dice is: " + diceRoll.getRolledDice()[i]); //prints dice 1
                 }
-                System.out.println("The total of the " + IntegerNames.NAMES[numberOfDice] + " dice is: " + diceRoll.sumOfRolledDice()); //prints total of dice1+ dice 2
+                System.out.println("The total of the " + IntegerNames.NAMES[diceRoll.getNumberOfDice()] + " dice is: " + diceRoll.sumOfRolledDice()); //prints total of dice1+ dice 2
 
                 System.out.println("Do you want to: " + buildOptionsQuestion(diceRoll.getNumberOfDice()));
                 String user_input = input.nextLine();
@@ -70,7 +69,7 @@ public class DiceGame {
                 }
                 int user_input_int = Integer.parseInt(user_input);
 
-                if (user_input_int == diceRoll.getNumberOfDice() + 1) { //3 = dice1+dice2
+                if (user_input_int == diceRoll.getNumberOfDice() + 1) {
                     player.addScore(diceRoll.sumOfRolledDice()); //(score = getScore() + addScore) +DiceTotal
                 } else {
                     player.addScore(diceRoll.getRolledDice()[user_input_int - 1]);//(score = getScore() + addScore) +Dice2
@@ -78,7 +77,7 @@ public class DiceGame {
                 System.out.println("Your new total score is: " + player.getScore()); //states score based on user_input
 
                 if (player.getScore() > winningDieTotal) {
-                    player.setScore(DEFAULT_STARTING_SCORE);
+                    player.resetScore();
                     System.out.println("Oh no! Your score is over " + winningDieTotal + ". Your score is now reset back to 0.");
                 }
                 if (player.getScore() == winningDieTotal) {
@@ -105,14 +104,12 @@ public class DiceGame {
         if (userInput.length() != 1) {
             return false;
         }
-        boolean valid = false;
         for (int i = 1; i <= numberOfDice + 1; i++) {
             if (userInput.equals(Integer.toString(i))) {
-                valid = true;
-                break;
+                return true;
             }
         }
-        return valid;
+        return false;
     }
 
 }
