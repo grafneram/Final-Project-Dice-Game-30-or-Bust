@@ -15,6 +15,7 @@ public class DiceRoll {
     public DiceRoll(int numberOfDice, int numberOfSides) {
         this.numberOfDice = numberOfDice;
         this.numberOfSides = numberOfSides;
+        rollDice();
     }
 
     public DiceRoll(int numberOfDice) {

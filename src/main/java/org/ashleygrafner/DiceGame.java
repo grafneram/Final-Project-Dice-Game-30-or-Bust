@@ -13,6 +13,12 @@ public class DiceGame {
     private final Player[] players; //array of players (defined in main)
     private final DiceRoll diceRoll;
 
+    public DiceGame(int numberOfPlayers, int numberOfDice, int winningDieTotal) {
+        this.winningDieTotal = winningDieTotal;
+        diceRoll = new DiceRoll(numberOfDice);
+        players = generateDefaultPlayers(numberOfPlayers);
+    }
+
     public DiceGame(Player[] players) { //will run through each player
         winningDieTotal = DEFAULT_WINNING_DIE_TOTAL;
         this.players = players;
@@ -51,31 +57,29 @@ public class DiceGame {
                 diceRoll.rollDice();
                 int numberOfDice = diceRoll.getNumberOfDice();
                 for (int i = 0; i < numberOfDice; i++) {
-                    System.out.println(IntegerOrdinals.INTEGER_ORDINALS[i + 1] + " dice is: " + diceRoll.getRolledDice()[i]); //prints dice 1
+                    System.out.println(IntegerNames.ORDINALS[i + 1] + " dice is: " + diceRoll.getRolledDice()[i]); //prints dice 1
                 }
-                System.out.println("The total of the two dice is: " + diceRoll.sumOfRolledDice()); //prints total of dice1+ dice 2
+                System.out.println("The total of the " + IntegerNames.NAMES[numberOfDice] + " dice is: " + diceRoll.sumOfRolledDice()); //prints total of dice1+ dice 2
 
-                System.out.println("Do you want to: 1.Keep dice1, 2.Keep dice2, 3.Keep the total of dice? (Please type 1 or 2 or 3): ");
+                System.out.println("Do you want to: " + buildOptionsQuestion(diceRoll.getNumberOfDice()));
                 String user_input = input.nextLine();
 
-                while (!user_input.equals("1") && !user_input.equals("2") && !user_input.equals("3")) { //if user does not enter 1,2 or 3:
-                    System.out.println("Please choose 1, 2 or 3");
+                while (!validateUserDieRollOption(user_input, diceRoll.getNumberOfDice())) { //if user does not enter 1,2 or 3:
+                    System.out.println(buildOptionsQuestion(diceRoll.getNumberOfDice()));
                     user_input = input.nextLine(); //loop until user_input = 1,2 or 3
                 }
-                if (user_input.equals("1")) {//1= dice1
-                    player.addScore(diceRoll.getRolledDice()[0]); //(score = getScore() + addScore) +Dice1
-                }
-                if (user_input.equals("2")) { //2 = dice2
-                    player.addScore(diceRoll.getRolledDice()[1]);//(score = getScore() + addScore) +Dice2
-                }
-                if (user_input.equals("3")) { //3 = dice1+dice2
+                int user_input_int = Integer.parseInt(user_input);
+
+                if (user_input_int == diceRoll.getNumberOfDice() + 1) { //3 = dice1+dice2
                     player.addScore(diceRoll.sumOfRolledDice()); //(score = getScore() + addScore) +DiceTotal
+                } else {
+                    player.addScore(diceRoll.getRolledDice()[user_input_int - 1]);//(score = getScore() + addScore) +Dice2
                 }
                 System.out.println("Your new total score is: " + player.getScore()); //states score based on user_input
 
                 if (player.getScore() > winningDieTotal) {
                     player.setScore(DEFAULT_STARTING_SCORE);
-                    System.out.println("Oh no! Your score is over 30. Your score is now reset back to 0.");
+                    System.out.println("Oh no! Your score is over " + winningDieTotal + ". Your score is now reset back to 0.");
                 }
                 if (player.getScore() == winningDieTotal) {
                     System.out.println("Your score is " + winningDieTotal + "! Congratulations, Player: " + ANSI_YELLOW + player.getName() + ANSI_RESET + " you have won!");
@@ -86,6 +90,29 @@ public class DiceGame {
                 System.out.println("-------------------------------------");
             }
         }
+    }
+
+    private static String buildOptionsQuestion(int numberOfDice) {
+        StringBuilder builder = new StringBuilder();
+        for (int i = 1; i <= numberOfDice; i++) {
+            builder.append(i).append(".Keep die").append(i).append(", ");
+        }
+        builder.append(numberOfDice + 1).append(".Keep the total of dice? (Please type your selection): ");
+        return builder.toString();
+    }
+
+    private static boolean validateUserDieRollOption(String userInput, int numberOfDice) {
+        if (userInput.length() != 1) {
+            return false;
+        }
+        boolean valid = false;
+        for (int i = 1; i <= numberOfDice + 1; i++) {
+            if (userInput.equals(Integer.toString(i))) {
+                valid = true;
+                break;
+            }
+        }
+        return valid;
     }
 
 }
