@@ -12,9 +12,10 @@ class Main {
         //used for input.next() to set name
         //used for input.next() for when user decides 1, 2 or 3
 
-        final String ANSI_BLUE = "\u001B[36m"; //sets text color to blue
-        final String ANSI_YELLOW = "\u001B[33m"; //sets text color to yellow
-        final String ANSI_RESET = "\u001B[0m"; //sets text color back to basic color
+        final String COLOR_BLUE = "\u001B[36m"; //sets text color to blue
+        final String COLOR_YELLOW = "\u001B[33m"; //sets text color to yellow
+        final String COLOR_RESET = "\u001B[0m"; //sets text color back to basic color
+        final String COLOR_RED = "\u001B[31m";
 
 
         class Player {
@@ -44,8 +45,8 @@ class Main {
 
             public void askName() {
                 System.out.println("\nWhat is your name, Player: ");
-                name = input.next();
-                System.out.println(ANSI_BLUE+"Welcome to the game, " + getName()+ANSI_RESET);
+                name = input.nextLine();
+                System.out.println(COLOR_BLUE+"Welcome to the game, "+COLOR_RESET + COLOR_YELLOW+getName()+COLOR_RESET+"!");
                 System.out.println("-------------------------------------");
             }
         }
@@ -71,9 +72,10 @@ class Main {
                         int diceRoll2 = (int) (Math.random() * 6) + 1; //dice 2
                         int diceRollTotal = diceRoll1 + diceRoll2; // total of dice 1 and dice 2
 
-                        System.out.println("Player: " +ANSI_YELLOW +players.getName()+ ANSI_RESET + "... Your total score is: " +ANSI_BLUE+players.getScore()+ANSI_RESET);
-                        System.out.println("First dice is: " + diceRoll1); //prints dice 1
-                        System.out.println("Second dice is: " + diceRoll2);// prints dice 2
+                        System.out.println(COLOR_YELLOW +players.getName()+ COLOR_RESET + " it is your turn!");
+                        System.out.println("Player: " +COLOR_YELLOW +players.getName()+ COLOR_RESET + "... Your total score is: " + COLOR_BLUE+players.getScore()+COLOR_RESET);
+                        System.out.println("First dice roll is: " + diceRoll1); //prints dice 1 #
+                        System.out.println("Second dice roll is: " + diceRoll2);// prints dice 2 #
                         System.out.println("The total of the two dice is: " + diceRollTotal); //prints total of dice1+ dice 2
 
                         System.out.println("Do you want to: 1.Keep dice1, 2.Keep dice2, 3.Keep the total of dice? (Please type 1 or 2 or 3): ");
@@ -98,7 +100,8 @@ class Main {
                             System.out.println("Oh no! Your score is over 30. Your score is now reset back to 0.");
                         }
                         if (players.getScore() == 30) {
-                            System.out.println("Your score is 30! Congratulations, Player: " + ANSI_YELLOW+players.getName()+ ANSI_RESET +" you have won!!!");
+                            System.out.println(COLOR_RED+"Your score is 30!"+COLOR_RESET);
+                            System.out.println("Congratulations, "+ COLOR_YELLOW+players.getName()+ COLOR_RESET +", you have won 30 Or Miss!");
                             System.out.println("-------------------------------------");
                             gameInProgress = false; //will stop our gameInProgress loop because false
                             break; //closes out of loop
@@ -109,15 +112,15 @@ class Main {
             }
         }
         // Game Rules:
-        System.out.println("\nHello! Welcome to 30 or Miss!");
-        System.out.println(ANSI_BLUE+"\nHere are the rules: "+ANSI_RESET);
-        System.out.println("The goal of this game is to have a score of EXACTLY 30.");
+        System.out.println("\nHello! Welcome to 30 Or Miss!");
+        System.out.println(COLOR_BLUE+"\nHere are the rules of the game:"+COLOR_RESET);
+        System.out.println("The goal of this game is to have a "+COLOR_YELLOW+"score of EXACTLY 30."+COLOR_RESET);
         System.out.println("Each player will roll two dice, then you must choose the score of ONE of the dice or the TOTAL of the two dice rolled.");
         System.out.println("That dice value you choose is then added to your total score. ");
         System.out.println("The two players will then switch. The game will end when a player earns a total score of EXACTLY 30.");
-        System.out.println(" If a player's score is ABOVE 30, your score is reset to ZERO.");
+        System.out.println("If a player's score is ABOVE 30, your score is reset to ZERO.");
 
-        System.out.println(ANSI_YELLOW+"\nLets start the game!"+ANSI_RESET);
+        System.out.println(COLOR_RED+"\nLets start the game!"+COLOR_RESET);
         System.out.println("-------------------------------------");
 
         Player[] arr;
