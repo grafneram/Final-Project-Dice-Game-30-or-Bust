@@ -12,6 +12,9 @@ class Main {
         //used for input.next() to set name
         //used for input.next() for when user decides 1, 2 or 3
 
+        final String ANSI_BLUE = "\u001B[36m"; //sets text color to blue
+        final String ANSI_YELLOW = "\u001B[33m"; //sets text color to yellow
+        final String ANSI_RESET = "\u001B[0m"; //sets text color back to basic color
 
 
         class Player {
@@ -40,9 +43,6 @@ class Main {
             }
 
             public void askName() {
-                final String ANSI_RESET = "\u001B[0m"; //sets text color back to basic
-                final String ANSI_BLUE = "\u001B[36m"; //sets text color to blue
-
                 System.out.println("\nWhat is your name, Player: ");
                 name = input.next();
                 System.out.println(ANSI_BLUE+"Welcome to the game, " + getName()+ANSI_RESET);
@@ -52,32 +52,26 @@ class Main {
 
 
 
-
-
         class DiceGame {
             Player[]playerNames; //initializer for array
-            public DiceGame(Player[] playerNames) { //calls our array in DiceGame
-                this.playerNames = playerNames; //("setter") that will set our player names
-                //explicit setter
+            public DiceGame(Player[] players) { //calls our array in DiceGame
+                this.playerNames = players; //explicit setter for players
             }
 
             public void display() {
                 boolean gameInProgress = true;
 
-                final String ANSI_YELLOW = "\u001B[33m"; //sets text color to yellow
-                final String ANSI_RESET = "\u001B[0m"; //sets text color back to basic color
-
                 while (gameInProgress) { //will run while true:
-                    for (Player players: playerNames) { //Player players defines object for each item
-                        //After colon defines the iterable set of items
+                    for (int i = 0; i < playerNames.length; i++) { //counter at 0, increases when i < length of array
+                        Player players = playerNames[i]; // sets players to array of playerNames[i]
 
-                        //for loop will run through each player, think of switching turns
+                        //think of for loop as switching turns because we run through for every player while gameInProgress = true
 
                         int diceRoll1 = (int) (Math.random() * 6) + 1; //dice 1
                         int diceRoll2 = (int) (Math.random() * 6) + 1; //dice 2
                         int diceRollTotal = diceRoll1 + diceRoll2; // total of dice 1 and dice 2
 
-                        System.out.println("\nPlayer: " + ANSI_YELLOW + players.getName()+ ANSI_RESET + ".... Your total score is: " + players.getScore()); //says player name and score
+                        System.out.println("Player: " +ANSI_YELLOW +players.getName()+ ANSI_RESET + "... Your total score is: " +ANSI_BLUE+players.getScore()+ANSI_RESET);
                         System.out.println("First dice is: " + diceRoll1); //prints dice 1
                         System.out.println("Second dice is: " + diceRoll2);// prints dice 2
                         System.out.println("The total of the two dice is: " + diceRollTotal); //prints total of dice1+ dice 2
@@ -116,13 +110,14 @@ class Main {
         }
         // Game Rules:
         System.out.println("\nHello! Welcome to 30 or Miss!");
-        System.out.println("\nHere are the rules: ");
+        System.out.println(ANSI_BLUE+"\nHere are the rules: "+ANSI_RESET);
         System.out.println("The goal of this game is to have a score of EXACTLY 30.");
         System.out.println("Each player will roll two dice, then you must choose the score of ONE of the dice or the TOTAL of the two dice rolled.");
-        System.out.println("The value you choose is then added to your total score. If a player's score is ABOVE 30, your score is reset to ZERO. ");
+        System.out.println("That dice value you choose is then added to your total score. ");
         System.out.println("The two players will then switch. The game will end when a player earns a total score of EXACTLY 30.");
+        System.out.println(" If a player's score is ABOVE 30, your score is reset to ZERO.");
 
-        System.out.println("\nLets start the game!");
+        System.out.println(ANSI_YELLOW+"\nLets start the game!"+ANSI_RESET);
         System.out.println("-------------------------------------");
 
         Player[] arr;
@@ -143,5 +138,3 @@ class Main {
 
 //Code should work for multiple players, currently have set to 2 players.
 //Will need to change in Player array if more or less people are playing
-
-//Struggled with having player turns (switching turns) so I separated Player class and DiceGame class
