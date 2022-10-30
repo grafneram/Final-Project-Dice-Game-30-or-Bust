@@ -1,1 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2022-10-30T02:31:29.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="V2CtHxFzqwiBna_zo-wZ" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-30T03:10:06.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PzF9rCq6_TUr3rg6RNLB" version="20.5.1" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Player" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="90" width="254" height="262" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="-name : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="26" width="254" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--2" value="-score : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="52" width="254" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="78" width="254" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="+Player(setName: string, setScore: int) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="86" width="254" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-38" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;+getName():String;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=11;fontColor=#000000;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry y="112" width="254" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-36" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;+setName(name:String): void&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=11;fontColor=#000000;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry y="142" width="254" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-40" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;+getScore(); int&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=11;fontColor=#000000;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry y="172" width="254" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-41" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;+setScore(score: int): void&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=11;fontColor=#000000;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry y="202" width="254" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-0" value="+askName(score: int):void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry y="232" width="254" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="DiceGame" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="380" width="256" height="100" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="- Player[] players;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="26" width="256" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="52" width="256" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-1" value="+display(); void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
+          <mxGeometry y="60" width="256" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="118" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="118" width="46" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-6" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Defaults:&lt;br&gt;String name = &#39;Unknown&quot;&lt;br&gt;int score= 0&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="130" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="P5V0xyqI0Jo41g7CdkDx-7" target="zkfFHV4jXpPFQw0GAbJ--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="190" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-17" value="Constructor for each player, has explicit setters within" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="205" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="P5V0xyqI0Jo41g7CdkDx-18" target="P5V0xyqI0Jo41g7CdkDx-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-18" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace&quot;&gt;Sets our score (getScore()) + addScore&lt;br&gt;&lt;br&gt;Impacts in other method to update the player&#39;s new score&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="275" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="P5V0xyqI0Jo41g7CdkDx-26" target="P5V0xyqI0Jo41g7CdkDx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-26" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;will continue to loop if:&lt;br&gt;gameInProgress = true;&lt;br&gt;and will loop for every player (2)&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="420" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-27" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Rolls 2 dice&lt;br&gt;Displays both dice + the total&amp;nbsp;&lt;br&gt;Allows for player choice on total or face value&lt;br&gt;Then the players choice will be set to their total score&lt;br&gt;&lt;br&gt;If their score reaches above 30, reset score back to 0&lt;br&gt;&lt;br&gt;If there score reaches exactly 30, they have won and the game ends&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="510" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;entryX=-0.027;entryY=0.846;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="P5V0xyqI0Jo41g7CdkDx-32" target="zkfFHV4jXpPFQw0GAbJ--7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="450" />
+              <mxPoint x="154" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-32" value="Calls Player obj in Dice game, this is used later to loop through each player in display()" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-42" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="210" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-45" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="231" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-46" value="getters &amp;amp; setters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-48" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;//Ashley Grafner&lt;br style=&quot;font-size: 10px;&quot;&gt;//CSC 10606080, Computer Science 1 (Java)&lt;br style=&quot;font-size: 10px;&quot;&gt;//10/29/2022&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/font&gt;&lt;/pre&gt;&lt;table style=&quot;border-spacing: 0px; border-collapse: collapse; tab-size: 8; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; font-size: 10px;&quot; data-tagsearch-path=&quot;src/Main.java&quot; data-tagsearch-lang=&quot;Java&quot; data-paste-markdown-skip=&quot;&quot; data-tab-size=&quot;8&quot; class=&quot;highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file&quot; data-hpc=&quot;&quot;&gt;&lt;tbody style=&quot;box-sizing: border-box; font-size: 10px;&quot;&gt;&lt;tr style=&quot;box-sizing: border-box; font-size: 10px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0px 10px; position: relative; line-height: 20px; vertical-align: top; overflow: visible; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; overflow-wrap: anywhere; font-size: 10px;&quot; class=&quot;blob-code blob-code-inner js-file-line&quot; id=&quot;LC4&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;box-sizing: border-box; font-size: 10px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0px 10px; position: relative; width: 50px; min-width: 50px; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; line-height: 20px; text-align: right; vertical-align: top; cursor: pointer; user-select: none; font-size: 10px;&quot; data-line-number=&quot;5&quot; class=&quot;blob-num js-line-number js-code-nav-line-number js-blob-rnum&quot; id=&quot;L5&quot;&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0px 10px; position: relative; line-height: 20px; vertical-align: top; overflow: visible; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; overflow-wrap: anywhere; font-size: 10px;&quot; class=&quot;blob-code blob-code-inner js-file-line&quot; id=&quot;LC5&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-size: 10px;&quot; class=&quot;pl-c&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;//Each player will roll two dice, then you must choose the score of ONE of the dice or the TOTAL of the two dice rolled&lt;/font&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;box-sizing: border-box; font-size: 10px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0px 10px; position: relative; width: 50px; min-width: 50px; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; line-height: 20px; text-align: right; vertical-align: top; cursor: pointer; user-select: none; font-size: 10px;&quot; data-line-number=&quot;6&quot; class=&quot;blob-num js-line-number js-code-nav-line-number js-blob-rnum&quot; id=&quot;L6&quot;&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0px 10px; position: relative; line-height: 20px; vertical-align: top; overflow: visible; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; overflow-wrap: anywhere; font-size: 10px;&quot; class=&quot;blob-code blob-code-inner js-file-line&quot; id=&quot;LC6&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-size: 10px;&quot; class=&quot;pl-c&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;//The value you choose is then added to your total score. If a player&#39;s score is ABOVE 30, your score is reset to ZERO.&lt;/font&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;box-sizing: border-box; font-size: 10px;&quot;&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0px 10px; position: relative; width: 50px; min-width: 50px; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; line-height: 20px; text-align: right; vertical-align: top; cursor: pointer; user-select: none; font-size: 10px;&quot; data-line-number=&quot;7&quot; class=&quot;blob-num js-line-number js-code-nav-line-number js-blob-rnum&quot; id=&quot;L7&quot;&gt;&lt;/td&gt;&lt;td style=&quot;box-sizing: border-box; padding: 0px 10px; position: relative; line-height: 20px; vertical-align: top; overflow: visible; font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; overflow-wrap: anywhere; font-size: 10px;&quot; class=&quot;blob-code blob-code-inner js-file-line&quot; id=&quot;LC7&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-size: 10px;&quot; class=&quot;pl-c&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;//The two players will then switch. The game will end when a player earns a total score of EXACTLY 30.&lt;/font&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#4D4D4D;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="710" width="540" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P5V0xyqI0Jo41g7CdkDx-51" value="" style="line;strokeWidth=2;direction=south;html=1;labelBackgroundColor=#FFFFFF;fontSize=11;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="480" width="10" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
